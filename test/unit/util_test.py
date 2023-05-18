@@ -4,6 +4,8 @@ import pytest
 from app import util
 
 
+# Pruebas funciones auxiliares
+
 @pytest.mark.unit
 class TestUtil(unittest.TestCase):
     def test_convert_to_number_correct_param(self):
